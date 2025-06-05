@@ -7,7 +7,7 @@ const Hero = () => {
     <section
       className="px-4 pt-36 pb-16 scroll-mt-[navbar-height]" // increased pt-24 to pt-36
       style={{
-        background: "linear-gradient(135deg, #00626E 0%, #00aac2 100%)",
+        background: "linear-gradient(135deg, #02444d 0%, #00aac2 100%)",
       }}
       data-oid="nk1-.9-"
     >
@@ -70,7 +70,7 @@ const Hero = () => {
             style={{
               backgroundColor: "#00bfcc",
               boxShadow: "0 6px 16px 0 rgba(0,98,110,0.36)",
-              color: "#00626E", // Deep teal for most text
+              color: "#02444d", // Deep teal for most text
             }}
             data-oid="xtd_iu:"
           >
@@ -86,25 +86,25 @@ const Hero = () => {
               <input
                 type="text"
                 placeholder="Full Name*"
-                className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent bg-white text-[#00626E] text-base"
+                className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent bg-white text-[#02444d] text-base shadow-[4px_0_12px_-4px_rgba(0,98,110,0.18)]"
                 data-oid="q_adp._"
               />
               <input
                 type="email"
                 placeholder="Email*"
-                className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent bg-white text-[#00626E] text-base"
+                className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent bg-white text-[#02444d] text-base shadow-[4px_0_12px_-4px_rgba(0,98,110,0.18)]"
                 data-oid="y5syk84"
               />
               <input
                 type="tel"
                 placeholder="Phone*"
-                className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent bg-white text-[#00626E] text-base"
+                className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent bg-white text-[#02444d] text-base shadow-[4px_0_12px_-4px_rgba(0,98,110,0.18)]"
                 data-oid="ux5ibsz"
               />
               <textarea
                 placeholder="Anything you'd like us to know?"
                 rows="3"
-                className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent bg-white text-[#00626E] text-base resize-none"
+                className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent bg-white text-[#02444d] text-base resize-none shadow-[4px_0_12px_-4px_rgba(0,98,110,0.18)]"
                 data-oid="c1.cs3m"
               ></textarea>
               <div className="flex items-start space-x-2" data-oid="e4j7677">
@@ -132,7 +132,7 @@ const Hero = () => {
                 type="submit"
                 className="w-full text-white font-bold py-5 text-xl rounded-xl transition-all duration-200 tracking-wide"
                 style={{
-                  backgroundColor: "#00626E",
+                  backgroundColor: "#02444d",
                   boxShadow: "0 6px 16px 0 rgba(0,98,110,0.36)",
                   letterSpacing: "0.5px",
                 }}
@@ -156,7 +156,7 @@ const Hero = () => {
               >
                 <p
                   className="text-xl font-bold"
-                  style={{ color: "#00626E" }}
+                  style={{ color: "#02444d" }}
                   data-oid="genw.x2"
                 >
                   720-757-6776
@@ -182,7 +182,7 @@ const Hero = () => {
             style={{ color: "white" }}
             onMouseEnter={(e) => {
               e.target.style.backgroundColor = "white";
-              e.target.style.color = "#00626E";
+              e.target.style.color = "#02444d";
             }}
             onMouseLeave={(e) => {
               e.target.style.backgroundColor = "transparent";

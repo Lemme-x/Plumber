@@ -2,7 +2,7 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
     extend: {
@@ -22,11 +22,11 @@ export default {
           800: '#155e63',
           900: '#164e63',
         },
-        'primary': '#00626E',
+        'primary': '#02444d',
         'primary-light': '#00aac2',
-        'primary-dark': '#00626E',
+        'primary-dark': '#02444d',
         'brand': {
-          'teal-dark': '#00626E',
+          'teal-dark': '#02444d',
           'teal-light': '#00aac2',
           'cyan': '#00bcd4',
         }
@@ -43,4 +43,4 @@ export default {
     },
   },
   plugins: [],
-} 
+}

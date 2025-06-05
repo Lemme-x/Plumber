@@ -5,7 +5,7 @@ const DontWaitSection = () => {
   return (
     <section
       className="bg-white py-16 px-4"
-      style={{ color: "#00626E" }}
+      style={{ color: "#02444d" }}
       data-oid="qnyc4u8"
     >
       <div className="container mx-auto text-center" data-oid="kvwmclm">
@@ -30,7 +30,7 @@ const DontWaitSection = () => {
             className="inline-block text-white font-bold py-4 px-8 text-center transition-all duration-300 border-2 border-solid rounded-full shadow-2xl hover:shadow-3xl transform hover:-translate-y-1"
             style={{
               backgroundColor: "#00aac2",
-              borderColor: "#00aac2",
+              borderColor: "black",
               boxShadow:
                 "0 8px 20px rgba(0, 170, 194, 0.4), 0 4px 12px rgba(0, 0, 0, 0.15)",
               borderRadius: "150px",

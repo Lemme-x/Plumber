@@ -15,7 +15,7 @@ const CommitmentSection = () => {
 
         {/* Right side - Content */}
         <div className="flex flex-col items-center md:items-start">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#00626E] text-center md:text-left mb-4" style={{ fontFamily: "Montserrat, sans-serif" }}>
+          <h2 className="text-3xl md:text-4xl font-bold text-[#02444d] text-center md:text-left mb-4" style={{ fontFamily: "Montserrat, sans-serif" }}>
             Our Commitment To You
           </h2>
           <div className="text-black text-base md:text-[16px] mb-2 text-center md:text-left" style={{ fontFamily: "Open Sans, sans-serif" }}>

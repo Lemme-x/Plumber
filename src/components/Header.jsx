@@ -33,7 +33,7 @@ const Header = () => {
       {/* Main Navigation Header */}
       <header
         className="text-white py-3 px-4 shadow-lg"
-        style={{ backgroundColor: "#00626E" }}
+        style={{ backgroundColor: "#02444d" }}
         data-oid="8c8h_sl"
       >
         <div className="container mx-auto" data-oid="3-kwvoz">
@@ -137,7 +137,7 @@ const Header = () => {
                 href="#"
                 aria-label="Follow us on Facebook"
                 className="w-6 h-6 rounded-full flex items-center justify-center text-white transition-colors"
-                style={{ backgroundColor: "#00626E" }}
+                style={{ backgroundColor: "#02444d" }}
                 data-oid="uvnwios"
               >
                 <Facebook className="w-3 h-3" data-oid="310c:5." />
@@ -147,7 +147,7 @@ const Header = () => {
                 href="#"
                 aria-label="Follow us on Instagram"
                 className="w-6 h-6 rounded-full flex items-center justify-center text-white transition-colors"
-                style={{ backgroundColor: "#00626E" }}
+                style={{ backgroundColor: "#02444d" }}
                 data-oid="h8bl4di"
               >
                 <Instagram className="w-3 h-3" data-oid="t9y7jez" />

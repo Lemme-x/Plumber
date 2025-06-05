@@ -53,25 +53,18 @@ const ToughJobsSection = () => {
             >
               Built for Tough Jobs. Trusted by Castle Pines Homes
             </h2>
-            <motion.a
-              href="tel:720-757-6776"
+            <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="inline-flex items-center text-white font-bold py-4 px-8 rounded-full text-lg border-2 border-white hover:bg-white transition-all duration-300"
+              type="button"
+              onClick={() => (window.location.href = "tel:720-757-6776")}
+              className="inline-flex items-center text-white font-bold py-4 px-8 rounded-full text-lg border-2 border-black shadow-xl bg-[#00aac2] transition-all duration-300"
               style={{ color: "white" }}
-              onMouseEnter={(e) => {
-                e.target.style.backgroundColor = "white";
-                e.target.style.color = "#00626E";
-              }}
-              onMouseLeave={(e) => {
-                e.target.style.backgroundColor = "transparent";
-                e.target.style.color = "white";
-              }}
               data-oid="v179nrd"
             >
               <Phone className="w-5 h-5 mr-2" data-oid="0mtbps1" />
               CALL NOW! | 720-757-6776
-            </motion.a>
+            </motion.button>
           </motion.div>
         </div>
       </div>

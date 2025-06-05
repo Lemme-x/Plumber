@@ -5,10 +5,10 @@ const WhyWaitSection = () => {
   return (
     <section className="py-12 px-4 bg-white">
       <div className="w-full max-w-3xl mx-auto flex flex-col items-center">
-        <h2 className="text-4xl md:text-5xl font-bold text-[#00626E] text-center mb-2">
+        <h2 className="text-4xl md:text-5xl font-bold text-[#02444d] text-center mb-2">
           Why Wait to Call?
         </h2>
-        <p className="text-2xl font-semibold text-[#00626E] text-center mb-6">
+        <p className="text-2xl font-semibold text-[#02444d] text-center mb-6">
           We really can't think of a good reason either.
         </p>
         <motion.a

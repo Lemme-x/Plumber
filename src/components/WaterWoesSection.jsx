@@ -41,11 +41,10 @@ const WaterWoesSection = () => {
               href="tel:720-757-6776"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="inline-flex items-center text-white font-bold py-4 px-8 rounded-full text-lg transition-all duration-300"
+              className="inline-flex items-center text-white font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 shadow-md"
               style={{
-                backgroundColor: "#00626E",
-                boxShadow:
-                  "0 25px 50px -12px rgba(0, 0, 0, 0.8), 0 25px 100px -12px rgba(0, 0, 0, 0.5)",
+                backgroundColor: "#00aac2",
+                border: "2px solid black",
               }}
             >
               CALL NOW! | 720-757-6776
