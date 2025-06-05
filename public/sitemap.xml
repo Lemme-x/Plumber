@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.yourdomain.com/</loc>
+    <lastmod>YYYY-MM-DD</lastmod> <!-- TODO: Update with actual last modification date -->
+    <changefreq>monthly</changefreq> <!-- TODO: Adjust based on how often content changes -->
+    <priority>1.0</priority> <!-- TODO: Adjust priority (0.0 to 1.0) -->
+  </url>
+  <!-- TODO: Add more <url> entries for other important pages/routes in your application -->
+</urlset> 
