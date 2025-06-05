@@ -1,4 +1,5 @@
 import React from "react";
+import van from '../assets/van.png';
 
 const CommitmentSection = () => {
   return (
@@ -35,7 +36,7 @@ const CommitmentSection = () => {
             More About Us &gt;&gt;
           </a>
           <img
-            src="https://cdn.pixabay.com/photo/2017/01/31/13/14/auto-2029591_1280.png"
+            src={van}
             alt="Plumbing van"
             className="w-40 mx-auto mb-4"
             style={{ maxWidth: "160px" }}
