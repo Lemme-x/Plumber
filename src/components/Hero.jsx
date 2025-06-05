@@ -25,7 +25,8 @@ const Hero = () => {
             data-oid="p70i1t9"
           >
             <h1
-              className="text-3xl lg:text-4xl xl:text-5xl font-bold mb-6 leading-tight padding-400"
+              className="text-3xl lg:text-4xl xl:text-5xl font-bold mb-6 leading-tight"
+              style={{ color: "#05abc3" }} // dark blue
               data-oid=".f:bx0j"
             >
               RELIABLE PLUMBING SOLUTIONS, ANYTIME YOU NEED!
