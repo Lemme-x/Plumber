@@ -1,89 +1,56 @@
 import React from "react";
-import { motion } from "framer-motion";
 
 const CommitmentSection = () => {
   return (
-    <section className="py-16 px-4 bg-white" data-oid="inx4p-k">
-      <div className="container mx-auto" data-oid="6xhrge0">
-        <div
-          className="grid lg:grid-cols-2 gap-12 items-center"
-          data-oid="39y2t6r"
-        >
-          {/* Left side - Group Photo */}
-          <motion.div
-            initial={{ x: -100, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: true }}
-            className="text-center lg:text-left"
-            data-oid="zt5h4mp"
-          >
-            <div
-              className="rounded-lg overflow-hidden shadow-xl"
-              data-oid="uqz3ik-"
-            >
-              <img
-                src="https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
-                alt="Professional plumbing team"
-                className="w-full h-full object-cover"
-                data-oid="c._26ah"
-              />
-            </div>
-          </motion.div>
+    <section className="py-8 px-2 bg-white w-full">
+      <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+        {/* Left side - Group Photo */}
+        <div className="flex flex-col items-center">
+          <img
+            src="https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+            alt="Professional plumbing team"
+            className="rounded-lg shadow-lg w-full max-w-md object-cover"
+          />
+        </div>
 
-          {/* Right side - Content */}
-          <motion.div
-            initial={{ x: 100, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: true }}
-            style={{ color: "#00626E" }}
-            data-oid="g.7485l"
+        {/* Right side - Content */}
+        <div className="flex flex-col items-center md:items-start">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#00626E] text-center md:text-left mb-4" style={{ fontFamily: "Montserrat, sans-serif" }}>
+            Our Commitment To You
+          </h2>
+          <div className="text-black text-base md:text-[16px] mb-2 text-center md:text-left" style={{ fontFamily: "Open Sans, sans-serif" }}>
+            We understand how disruptive plumbing issues can be, which is why we prioritize working around your schedule to reduce inconvenience. Our mission is simple: resolve the issue correctly on the first visit and leave your space as clean as we found it.
+          </div>
+          <div className="italic text-[#222] text-base md:text-[16px] mb-2 text-center md:text-left" style={{ fontFamily: "Open Sans, sans-serif" }}>
+            With upfront pricing, no hidden fees and our honest service - you'll always know what to expect.
+          </div>
+          <div className="text-black text-base md:text-[16px] mb-2 text-center md:text-left" style={{ fontFamily: "Open Sans, sans-serif" }}>
+            Our skilled plumbers deliver dependable plumbing solutions so you can have peace of mind about your plumbing system. Whether it’s a leaky faucet, a clogged drain, or a major pipe replacement, we’ve got you covered. Don’t wait for small plumbing problems to become big ones—contact us today!
+          </div>
+          <a
+            href="#about"
+            className="text-[#0062A1] font-bold mt-4 mb-6 text-base md:text-lg"
+            style={{ fontFamily: "Montserrat, sans-serif" }}
           >
-            <h2
-              className="text-3xl lg:text-4xl font-bold mb-8"
-              data-oid="0-vbc5g"
-            >
-              Our Commitment to You
-            </h2>
-            <div className="space-y-4 mb-8" data-oid="sk.mnrx">
-              <p className="text-lg" data-oid="7hd_cz5">
-                We understand that plumbing problems can happen at any time,
-                which is why we offer 24/7 emergency services. Our team is
-                dedicated to providing fast, reliable solutions to get your
-                plumbing back to working condition.
-              </p>
-              <p className="text-lg" data-oid="b4ldkts">
-                With years of experience in the plumbing industry, we have the
-                expertise to handle any plumbing challenge, from simple repairs
-                to complex installations.
-              </p>
-              <p className="text-lg" data-oid="50yx7.c">
-                All of our work comes backed by our satisfaction guarantee, and
-                we use only the highest quality materials and equipment to
-                ensure lasting results.
-              </p>
-              <p className="text-lg" data-oid="insmm5b">
-                We're committed to providing transparent pricing with no hidden
-                fees, so you know exactly what to expect before we begin any
-                work.
-              </p>
-            </div>
-            <motion.a
-              href="tel:720-757-6776"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="inline-flex items-center text-white font-bold py-4 px-8 rounded-full text-lg transition-all duration-300"
-              style={{
-                backgroundColor: "#00aac2",
-                boxShadow:
-                  "0 25px 50px -12px rgba(0, 0, 0, 0.8), 0 25px 100px -12px rgba(0, 0, 0, 0.5)",
-              }}
-              data-oid="i5yf9ds"
-            >
-              CALL NOW: 720-757-6776
-            </motion.a>
-          </motion.div>
+            More About Us &gt;&gt;
+          </a>
+          <img
+            src="https://cdn.pixabay.com/photo/2017/01/31/13/14/auto-2029591_1280.png"
+            alt="Plumbing van"
+            className="w-40 mx-auto mb-4"
+            style={{ maxWidth: "160px" }}
+          />
+          <a
+            href="tel:720-757-6776"
+            className="bg-[#00aac2] text-white font-bold py-3 px-8 rounded-full text-lg shadow-lg border-2 border-[#067a89] transition-all duration-200 hover:scale-105"
+            style={{
+              fontFamily: "Montserrat, sans-serif",
+              boxShadow: "0 4px 12px 0 rgba(0,0,0,0.15)",
+              display: "inline-block",
+            }}
+          >
+            CALL NOW! | 720-757-6776
+          </a>
         </div>
       </div>
     </section>
