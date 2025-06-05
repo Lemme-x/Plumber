@@ -5,7 +5,7 @@ import { Phone } from "lucide-react";
 const Hero = () => {
   return (
     <section
-      className="px-4 pt-24 pb-16"
+      className="px-4 pt-36 pb-16 scroll-mt-[navbar-height]" // increased pt-24 to pt-36
       style={{
         background: "linear-gradient(135deg, #00626E 0%, #00aac2 100%)",
       }}
@@ -25,13 +25,13 @@ const Hero = () => {
             data-oid="p70i1t9"
           >
             <h1
-              className="text-3xl lg:text-4xl xl:text-5xl font-bold mb-6 leading-tight"
+              className="text-3xl lg:text-4xl xl:text-5xl font-bold mb-6 leading-tight padding-400"
               data-oid=".f:bx0j"
             >
               RELIABLE PLUMBING SOLUTIONS, ANYTIME YOU NEED!
             </h1>
             <p
-              className="text-base lg:text-lg mb-6 opacity-90 leading-relaxed"
+              className="text-base lg:text-lg mb-6 opacity-90 leading-relaxed padding-400"
               data-oid="v7yccc_"
             >
               Plumbing troubles shouldn't disrupt your routine – not when our
