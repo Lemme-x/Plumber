@@ -66,12 +66,17 @@ const Hero = () => {
             initial={{ x: 100, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
-            className="text-gray-800 p-6 lg:p-8 rounded-2xl shadow-2xl mt-8 lg:mt-0"
-            style={{ backgroundColor: "#00aac2" }}
+            className="p-6 lg:p-8 rounded-2xl mt-8 lg:mt-0 shadow-[0_6px_16px_0_rgba(0,51,62,0.25)]"
+            style={{
+              backgroundColor: "#00bfcc",
+              boxShadow: "0 6px 16px 0 rgba(0,98,110,0.36)",
+              color: "#00626E", // Deep teal for most text
+            }}
             data-oid="xtd_iu:"
           >
             <h3
-              className="text-xl lg:text-2xl font-bold text-center mb-6 text-white"
+              className="text-2xl font-bold text-center mb-6"
+              style={{ color: "#fff" }}
               data-oid="0v4:nes"
             >
               Stronger Solutions. Faster Fixes. Call Now!
@@ -81,31 +86,27 @@ const Hero = () => {
               <input
                 type="text"
                 placeholder="Full Name*"
-                className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent bg-white text-gray-800"
+                className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent bg-white text-[#00626E] text-base"
                 data-oid="q_adp._"
               />
-
               <input
                 type="email"
                 placeholder="Email*"
-                className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent bg-white text-gray-800"
+                className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent bg-white text-[#00626E] text-base"
                 data-oid="y5syk84"
               />
-
               <input
                 type="tel"
                 placeholder="Phone*"
-                className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent bg-white text-gray-800"
+                className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent bg-white text-[#00626E] text-base"
                 data-oid="ux5ibsz"
               />
-
               <textarea
                 placeholder="Anything you'd like us to know?"
                 rows="3"
-                className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent bg-white text-gray-800 resize-none"
+                className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent bg-white text-[#00626E] text-base resize-none"
                 data-oid="c1.cs3m"
               ></textarea>
-
               <div className="flex items-start space-x-2" data-oid="e4j7677">
                 <input
                   type="checkbox"
@@ -113,10 +114,10 @@ const Hero = () => {
                   className="mt-1 flex-shrink-0"
                   data-oid="m2grg.l"
                 />
-
                 <label
                   htmlFor="terms"
-                  className="text-xs text-white leading-relaxed"
+                  className="text-xs leading-relaxed"
+                  style={{ color: "#fff" }}
                   data-oid="qsyq8im"
                 >
                   I agree to terms & conditions provided by the company. By
@@ -129,8 +130,12 @@ const Hero = () => {
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 type="submit"
-                className="w-full text-white font-bold py-4 rounded-lg transition-colors text-lg"
-                style={{ backgroundColor: "#00626E" }}
+                className="w-full text-white font-bold py-5 text-xl rounded-xl transition-all duration-200 tracking-wide"
+                style={{
+                  backgroundColor: "#00626E",
+                  boxShadow: "0 6px 16px 0 rgba(0,98,110,0.36)",
+                  letterSpacing: "0.5px",
+                }}
                 data-oid="fm1rqe6"
               >
                 GET MY PLUMBING FIXED!
@@ -139,7 +144,8 @@ const Hero = () => {
 
             <div className="text-center mt-6" data-oid="0fa_f4r">
               <p
-                className="text-lg font-bold text-white mb-3"
+                className="text-lg font-bold mb-3"
+                style={{ color: "#fff" }}
                 data-oid="exso.o4"
               >
                 Call Headstrong Plumbing Today!

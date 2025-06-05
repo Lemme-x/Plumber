@@ -15,11 +15,11 @@ const WaterWoesSection = () => {
             viewport={{ once: true }}
             className="text-center lg:text-left"
           >
-            <div className="w-48 h-48 mx-auto lg:mx-0 rounded-lg overflow-hidden mb-8 shadow-xl">
+            <div className="w-60 h-60 mx-auto lg:mx-0 rounded-lg overflow-hidden mb-8">
               <img
                 src={mascot}
                 alt="Headstrong Plumbing Mascot"
-                className="w-full h-full object-cover"
+                className=""
                 loading="lazy"
               />
             </div>

@@ -25,7 +25,7 @@ const ToughJobsSection = () => {
           >
             <div className="mb-8" data-oid="wpq8fk:">
               <div
-                className="w-48 h-48 mx-auto lg:mx-0 rounded-lg overflow-hidden shadow-xl"
+                className="w-48 h-48 mx-auto lg:mx-0 rounded-lg overflow-hidden"
                 data-oid="zkp97eg"
               >
                 <img
